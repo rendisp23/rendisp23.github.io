@@ -1,62 +1,30 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+# Eres — Portofolio Rendi Saputra
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+Versi portofolio IT Support, Helpdesk, dan Infrastructure. Situs statis tanpa database dan tanpa proses build.
 
-## Preview
+## Berkas yang diedit
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/templates/stylish-portfolio.jpg)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+| Berkas | Isi |
+|---|---|
+| index.html | Profil, keahlian, pengalaman, kartu proyek, kontak |
+| app.js | Tutorial, cerita lengkap proyek, filter dan penghitung status |
+| style.css | Tampilan dasar dan diagram |
+| readability.css | Ukuran teks, tampilan responsif, prosesor RS dan efek cahaya |
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)**
+Baca [PANDUAN-UPDATE.md](PANDUAN-UPDATE.md) untuk langkah perubahan langsung melalui GitHub.
 
-## Status
+## Membuka web
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-stylish-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio?type=dev)
+Buka index.html di browser untuk melihat situs lokal. Tidak perlu npm install. Google Fonts membutuhkan internet; font cadangan tetap tersedia.
 
-## Download and Installation
+## Hosting
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Install via npm: `npm i startbootstrap-stylish-portfolio`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+Untuk CWP/Jagoweb, unggah index.html, app.js, style.css, dan readability.css ke folder publik domain. Untuk GitHub Pages, gunakan folder root repositori ini setelah pembaruan digabungkan ke branch yang digunakan Pages. File .nojekyll menandai situs sebagai berkas statis.
 
-## Usage
+Alamat Sites yang sudah dibuat tidak otomatis mengikuti perubahan GitHub. Unggahan GitHub ini menyimpan sumber web; aktivasi hosting atau sinkronisasi perlu dikonfigurasi tersendiri.
 
-### Basic Usage
+## Data proyek
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Status live = Go Live, ongoing = Progress, plan = Rancangan. Jumlah status dihitung otomatis dari kartu proyek. Angka kebutuhan perangkat dan kabel diberi konteks sesuai dokumen pendukung. CV, dokumen internal asli, kredensial, dan konfigurasi layanan Sites tidak disertakan.
 
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+Folder lama css/, js/, img/, scss/, vendor/ dan berkas build lama merupakan bagian versi terdahulu dan tidak diperlukan oleh index.html Eres yang baru. Berkas lama tetap dipertahankan untuk referensi.
